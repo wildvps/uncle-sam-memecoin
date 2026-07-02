@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Uncle Sam patriotic banner">
+  <defs>
+    <linearGradient id="flagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#002366"/>
+      <stop offset="45%" stop-color="#BF0A30"/>
+      <stop offset="100%" stop-color="#002366"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4dabf7"/>
+      <stop offset="45%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e63946"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Flag stripes -->
+  <rect width="1200" height="750" fill="#BF0A30"/>
+  <g opacity="0.95">
+    <rect y="58" width="1200" height="58" fill="#fff"/>
+    <rect y="174" width="1200" height="58" fill="#fff"/>
+    <rect y="290" width="1200" height="58" fill="#fff"/>
+    <rect y="406" width="1200" height="58" fill="#fff"/>
+    <rect y="522" width="1200" height="58" fill="#fff"/>
+    <rect y="638" width="1200" height="58" fill="#fff"/>
+  </g>
+  <rect width="480" height="410" fill="#002366"/>
+  <g fill="#fff">
+    <circle cx="60" cy="55" r="14"/><circle cx="120" cy="55" r="14"/><circle cx="180" cy="55" r="14"/><circle cx="240" cy="55" r="14"/><circle cx="300" cy="55" r="14"/><circle cx="360" cy="55" r="14"/><circle cx="420" cy="55" r="14"/>
+    <circle cx="90" cy="110" r="14"/><circle cx="150" cy="110" r="14"/><circle cx="210" cy="110" r="14"/><circle cx="270" cy="110" r="14"/><circle cx="330" cy="110" r="14"/><circle cx="390" cy="110" r="14"/>
+    <circle cx="60" cy="165" r="14"/><circle cx="120" cy="165" r="14"/><circle cx="180" cy="165" r="14"/><circle cx="240" cy="165" r="14"/><circle cx="300" cy="165" r="14"/><circle cx="360" cy="165" r="14"/><circle cx="420" cy="165" r="14"/>
+    <circle cx="90" cy="220" r="14"/><circle cx="150" cy="220" r="14"/><circle cx="210" cy="220" r="14"/><circle cx="270" cy="220" r="14"/><circle cx="330" cy="220" r="14"/><circle cx="390" cy="220" r="14"/>
+    <circle cx="60" cy="275" r="14"/><circle cx="120" cy="275" r="14"/><circle cx="180" cy="275" r="14"/><circle cx="240" cy="275" r="14"/><circle cx="300" cy="275" r="14"/><circle cx="360" cy="275" r="14"/><circle cx="420" cy="275" r="14"/>
+    <circle cx="90" cy="330" r="14"/><circle cx="150" cy="330" r="14"/><circle cx="210" cy="330" r="14"/><circle cx="270" cy="330" r="14"/><circle cx="330" cy="330" r="14"/><circle cx="390" cy="330" r="14"/>
+  </g>
+
+  <!-- Mascot silhouette -->
+  <g transform="translate(80, 180)">
+    <ellipse cx="170" cy="290" rx="95" ry="110" fill="#d4a574"/>
+    <rect x="120" y="120" width="100" height="170" rx="40" fill="#d4a574"/>
+    <ellipse cx="170" cy="95" rx="72" ry="78" fill="#d4a574"/>
+    <rect x="118" y="18" width="104" height="55" rx="8" fill="#fff"/>
+    <rect x="118" y="58" width="104" height="18" fill="#002366"/>
+    <rect x="145" y="200" width="50" height="70" rx="8" fill="#002366"/>
+    <rect x="155" y="235" width="30" height="18" rx="4" fill="#BF0A30"/>
+    <path d="M250 360 L310 300 L295 285 L245 330 Z" fill="#d4a574"/>
+    <circle cx="292" cy="292" r="16" fill="#d4a574"/>
+    <rect x="286" y="250" width="12" height="55" rx="4" fill="#d4a574" transform="rotate(-25 292 277)"/>
+    <ellipse cx="148" cy="92" rx="10" ry="12" fill="#111"/>
+    <ellipse cx="192" cy="92" rx="10" ry="12" fill="#111"/>
+    <path d="M155 118 Q170 108 185 118" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M158 128 Q170 122 182 128" stroke="#fff" stroke-width="5" fill="none"/>
+  </g>
+
+  <!-- Title -->
+  <text x="620" y="340" font-family="Impact, Arial Black, sans-serif" font-size="120" fill="url(#titleGrad)" stroke="#001845" stroke-width="6" filter="url(#glow)">Uncle Sam</text>
+  <text x="620" y="430" font-family="Arial, sans-serif" font-size="42" fill="#fff" opacity="0.9">I WANT YOU</text>
+  <text x="620" y="490" font-family="Arial, sans-serif" font-size="34" fill="#FFD700">Uncle $SAM · Bonk · USD1</text>
+</svg>
